@@ -69,6 +69,7 @@ int main(void) {
 
 	for (int i = 1; i <= n; i++) {
 		input[i] = std::lower_bound(X.begin(), X.end(), input[i]) - X.begin();
+		next[i].push_back(i + 1);
 		height[input[i]].push_back(i);
 	}
 
@@ -83,15 +84,16 @@ int main(void) {
 			}
 
 			update1(height[i][j], height[i][j]);
-			update2(height[i][j], height[i][j]);
 		}
 
-		for (int j = height[i].size() - 1; j >= 0; j--) {
+		for (int j = 0; j < height[i].size(); j++) {
 			int left = query2(1, height[i][j]);
 
 			if (left >= 1) {
 				next[left].push_back(height[i][j]);
 			}
+
+			update2(height[i][j], height[i][j]);
 		}
 	}
 
@@ -106,15 +108,15 @@ int main(void) {
 			}
 
 			update1(height[i][j], height[i][j]);
-			update2(height[i][j], height[i][j]);
 		}
 
-		for (int j = height[i].size() - 1; j >= 0; j--) {
+		for (int j = 0; j < height[i].size(); j++) {
 			int left = query2(1, height[i][j]);
 
 			if (left >= 1) {
 				next[left].push_back(height[i][j]);
 			}
+			update2(height[i][j], height[i][j]);
 		}
 	}
 
