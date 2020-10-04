@@ -30,7 +30,7 @@ Advanced Algorithm
  - FFT(Fast Fouier Transform) (Learning)
  - MCMF(Minimum Cost Maximum Flow)
  - Persistence Segment Tree and 2D Segment Tree (Learning)
- - Game Theory : Nim Game
+ - Game Theory : Nim Game, MinMax Tree
  - HLD(Heavy Light Decomposition) (Learning)
  - Tree Centroid Decomposition (Learning)
  - Sqrt Decomposition and Mo's Algorithm
