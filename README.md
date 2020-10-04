@@ -11,6 +11,7 @@ Basic Algorithm
  - Basic Greedy   
  - Dynamic Programming : LIS, LCS   
  - Divide and Conquer
+ - Binary Search
  
 Medium Algorithm   
  - MST(Minimum Spanning Tree) : Kruskal, Prim   
@@ -33,3 +34,4 @@ Advanced Algorithm
  - HLD(Heavy Light Decomposition) (Learning)
  - Tree Centroid Decomposition (Learning)
  - Sqrt Decomposition and Mo's Algorithm
+ - Parallel Binary Search
