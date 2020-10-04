@@ -18,10 +18,18 @@ Medium Algorithm
  - SCC(Strongly Connected Component)   
  - Articulation Point and Bridge   
  - Dynamic Progrmming : Bitonic Sequence DP
- - Medium Greedy
- - Data Structure : Segment Tree, Trie   
+ - Data Structure : Segment Tree with Lazy Propagation, Trie   
+ - Network Flow(Dinic) and Bipartite Matching   
+ - String Hashing   
+ - 2-SAT Problem
  
 Advanced Algorithm
  - Dynamic Programming Optimization : Divide and Conquer, Monotonous queue(Convex Hull Trick), Licao Tree
- - Network Flow(Dinic) and Bipartite Matching
- - 
+ - Suffix Array (Learning)
+ - FFT(Fast Fouier Transform) (Learning)
+ - MCMF(Minimum Cost Maximum Flow)
+ - Persistence Segment Tree and 2D Segment Tree (Learning)
+ - Game Theory : Nim Game
+ - HLD(Heavy Light Decomposition) (Learning)
+ - Tree Centroid Decomposition (Learning)
+ - Sqrt Decomposition and Mo's Algorithm
