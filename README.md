@@ -12,6 +12,7 @@ Basic Algorithm
  - Dynamic Programming : LIS, LCS   
  - Divide and Conquer
  - Binary Search
+ - Simulation
  
 Medium Algorithm   
  - MST(Minimum Spanning Tree) : Kruskal, Prim   
@@ -23,15 +24,16 @@ Medium Algorithm
  - Network Flow(Dinic) and Bipartite Matching   
  - String Hashing   
  - 2-SAT Problem
+ - Geometry Problem : Convex Hull, Rotating Calipers, Triangulation
  
 Advanced Algorithm
- - Dynamic Programming Optimization : Divide and Conquer, Monotonous queue(Convex Hull Trick), Licao Tree
+ - Dynamic Programming Optimization : Monotonous queue(Convex Hull Trick, Divide and Conquer), Licao Tree
  - Suffix Array (Learning)
- - FFT(Fast Fouier Transform) (Learning)
+ - FFT(Fast Fouier Transform)
  - MCMF(Minimum Cost Maximum Flow)
  - Persistence Segment Tree and 2D Segment Tree (Learning)
  - Game Theory : Nim Game, MinMax Tree
  - HLD(Heavy Light Decomposition) (Learning)
  - Tree Centroid Decomposition (Learning)
- - Sqrt Decomposition and Mo's Algorithm
+ - Sqrt Decomposition and Mo's Algorithm (Learning)
  - Parallel Binary Search
