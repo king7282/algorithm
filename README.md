@@ -35,5 +35,5 @@ Advanced Algorithm
  - Game Theory : Nim Game, MinMax Tree
  - HLD(Heavy Light Decomposition) (Learning)
  - Tree Centroid Decomposition (Learning)
- - Sqrt Decomposition and Mo's Algorithm (Learning)
+ - Sqrt Decomposition and Mo's Algorithm
  - Parallel Binary Search
