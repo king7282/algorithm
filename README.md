@@ -37,3 +37,4 @@ Advanced Algorithm
  - Tree Centroid Decomposition (Learning)
  - Sqrt Decomposition and Mo's Algorithm
  - Parallel Binary Search
+ - Splay Tree(Balanced Binary Search Tree Easy Version)
