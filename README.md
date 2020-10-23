@@ -25,6 +25,7 @@ Medium Algorithm
  - String Hashing   
  - 2-SAT Problem
  - Geometry Problem : Convex Hull, Rotating Calipers, Triangulation
+ - Sparse Table And LCA(Lowest Common Ancestor in tree)
  
 Advanced Algorithm
  - Dynamic Programming Optimization : Monotonous queue(Convex Hull Trick, Divide and Conquer), Licao Tree
