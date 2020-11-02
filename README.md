@@ -32,7 +32,7 @@ Advanced Algorithm
  - Suffix Array (Learning)
  - FFT(Fast Fouier Transform)
  - MCMF(Minimum Cost Maximum Flow)
- - Persistence Segment Tree and 2D Segment Tree (Learning)
+ - Persistence Segment Tree and 2D Segment Tree
  - Game Theory : Nim Game, MinMax Tree, Grundy number
  - HLD(Heavy Light Decomposition) (Learning)
  - Tree Centroid Decomposition (Learning)
