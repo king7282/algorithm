@@ -3,51 +3,34 @@
 #include <vector>
 #include <climits>
 
-struct info {
-	int value, x, y;
-	info(int value, int x, int y) : value(value), x(x), y(y) {}
-};
-
-int input[50010];
-std::vector<info> v;
+bool check[800010];
+int input[5010];
+std::vector<std::pair<int, int>> v[400010];
 
 int main(void) {
-	int w, n, min1 = INT_MAX / 2;
+	int w, n, min1 = INT_MAX / 2, max1 = 0;
 	scanf("%d %d", &w, &n);
 
 	for (int i = 1; i <= n; i++) {
 		scanf("%d", input + i);
 		for (int j = 1; j < i; j++) {
 			min1 = std::min(min1, input[i] + input[j]);
-			v.push_back(info(input[i] + input[j], j, i));
+			max1 = std::max(max1, input[i] + input[j]);
+			if (v[input[i] + input[j]].size() < 2)
+				v[input[i] + input[j]].push_back(std::make_pair(j, i));
 		}
 	}
-
-	std::sort(v.begin(), v.end(), [](info a, info b) {
-		return a.value < b.value;
-	});
 
 	bool flag = false;
 	for (int i = 1; i <= n && !flag; i++) {
 		for (int j = 1; j < i && !flag; j++) {
 			int left = w - input[i] - input[j];
-			if (left < min1)
+			if (left < min1 || left > max1 || check[left] == true || v[left].size() == 0)
 				continue;
+			check[left] = true;
 
-			int s = 0, e = v.size() - 1, r = 0;
-			
-			while (s <= e) {
-				int mid = (s + e) / 2;
-				if (v[mid].value <= left) {
-					s = mid + 1;
-					r = std::max(r, mid);
-				}
-				else
-					e = mid - 1;
-			}
-			
-			for (int z = r; z <= r + 2 && z < v.size(); z++) {
-				if (v[z].value == left && v[z].y != i && v[z].x != i && v[z].x != j && v[z].y != j) {
+			for (int z = 0; z < 2 && z < v[left].size(); z++) {
+				if (v[left][z].first != j && v[left][z].second != i && v[left][z].first != i && v[left][z].second != j) {
 					flag = true;
 					break;
 				}
