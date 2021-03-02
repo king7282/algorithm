@@ -29,7 +29,8 @@ Medium Algorithm
  
 Advanced Algorithm
  - Dynamic Programming Optimization : Monotonous queue(Convex Hull Trick, Divide and Conquer), Licao Tree
- - Suffix Array (Learning)
+ - Aho-Corasick
+ - Suffix Array
  - FFT(Fast Fouier Transform)
  - MCMF(Minimum Cost Maximum Flow)
  - Persistence Segment Tree and 2D Segment Tree
